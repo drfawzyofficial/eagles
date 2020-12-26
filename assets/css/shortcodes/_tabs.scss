@@ -1,0 +1,86 @@
+/*****************************
+	Tab style
+*****************************/
+
+/* Tab */
+.nav-tabs {
+	.nav-link {
+		color: $gray-3;
+		padding: 0 30px 15px;
+		font-size: 16px;
+		border: none;
+		border-bottom: 3px solid transparent;
+		&:focus {
+			border-bottom-color: $primary;
+		}
+		&:hover {
+			border-bottom-color: $primary;
+		}
+	}
+	.nav-item.show {
+		.nav-link {
+			color: $primary;
+			border-bottom-color: $primary;
+		}
+	}
+	.nav-link.active {
+		color: $primary;
+		border-bottom-color: $primary;
+	}
+}
+
+/* Vertical  Pills Tab */
+.nav-pills {
+  .nav-link {
+    color: $gray-8;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 13px 30px;
+    margin-bottom: 10px;
+    border-radius: $border-radius-md;
+  }
+
+  .nav-link.active {
+    background-color: $primary;
+  }
+
+  .show {
+    >.nav-link {
+      background-color: $primary;
+    }
+
+  }
+
+}
+
+/* Horizontal Pills Tab */
+.nav-pills .nav-item .nav-link {
+  margin-bottom: 0;
+  margin-right: 10px;
+}
+
+@media (max-width:767px) {
+
+    /* Tab */
+    .nav-tabs .nav-link {
+      padding: 0 12px 10px;
+      font-size: 14px;
+    }
+
+    /*  Pills Tab */
+		.nav.nav-pills {
+			display: inline-block;
+		}
+
+		.nav-pills .nav-link {
+			display: inline-block;
+			margin: 0 10px 16px 0;
+			font-size: 14px;
+			padding: 10px 20px;
+		}
+
+	  	.nav-pills .nav-item {
+			display: inline-block;
+	  	}
+
+	}

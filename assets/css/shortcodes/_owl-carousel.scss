@@ -1,0 +1,148 @@
+/*****************************
+	Owl Carousel
+*****************************/
+
+.owl-carousel {
+	.owl-item {
+		img {
+			width: auto;
+			display: inherit;
+		}
+	}
+	.owl-nav {
+		cursor: pointer;
+		z-index: 999;
+		width: 100%;
+		.owl-prev {
+			display: block;
+			position: absolute;
+			text-indent: inherit;
+			width: auto;
+			cursor: pointer;
+			transition: all 0.2s ease-in-out;
+			left: 0px;
+			display: block;
+			position: absolute;
+			text-indent: inherit;
+			top: 55%;
+			transform: translateY(-50%);
+			margin: 0 !important;
+			display: inline-block;
+			margin: 14px 2px 0;
+			opacity: 0;
+			i{
+				border-radius: $border-radius-md;
+			}
+		}
+		.owl-next {
+			display: block;
+			position: absolute;
+			text-indent: inherit;
+			width: auto;
+			cursor: pointer;
+			transition: all 0.2s ease-in-out;
+			right: 0px;
+			display: block;
+			position: absolute;
+			text-indent: inherit;
+			top: 55%;
+			transform: translateY(-50%);
+			margin: 0 !important;
+			display: inline-block;
+			margin: 14px 2px 0;
+			opacity: 0;
+			i{
+				border-radius: $border-radius-md;
+			}
+		}
+		i {
+			font-size: 16px;
+			width: 40px;
+			height: 40px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			color: $white;
+			background: $primary;
+			border: 0px solid $border-color;
+			text-align: center;
+			transition: all 0.5s ease-in-out;
+			&:hover {
+				background: $gray-9;
+				color: $white;
+				box-shadow: $box-shadow;
+			}
+		}
+	}
+	.owl-controls {
+		.owl-dot {
+			margin: 0;
+			display: inline-block;
+		}
+	}
+	.owl-dots {
+		display: inline-block;
+		margin-top: 10px;
+		text-indent: inherit;
+		width: 100%;
+		cursor: pointer;
+		.owl-dot {
+			span {
+				background: $gray-2;
+				display: inline-block;
+				width: 48px;
+				min-height: 4px;
+				margin-top: 4px;
+				border-radius: 10px;
+				transition: all 0.5s ease-in-out;
+				cursor: pointer;
+				border-radius: $border-radius-md;
+			}
+			&:hover {
+				span {
+					background: $primary;
+				}
+			}
+		}
+		.owl-dot.active {
+			span {
+				background: $primary;
+			}
+		}
+	}
+	.owl-dot {
+		display: inline-block;
+		margin: 14px 4px 0;
+	}
+}
+
+.owl-carousel:hover .owl-nav .owl-prev {
+	opacity: 1;
+	left: 15px;
+}
+
+.owl-carousel:hover .owl-nav .owl-next {
+	opacity: 1;
+	right: 15px;
+}
+
+/* Owl Dots Alignment */
+.owl-carousel.owl-nav-bottom-left .owl-dots {
+	text-align: left;
+}
+
+.owl-carousel.owl-nav-bottom-center .owl-dots {
+	text-align: center;
+}
+
+.owl-carousel.owl-nav-bottom-right .owl-dots {
+	text-align: right;
+}
+
+@media (max-width:767px) {
+
+	.owl-carousel .owl-dots .owl-dot span {
+		width: 30px;
+  }
+  
+}

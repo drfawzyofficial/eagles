@@ -1,0 +1,36 @@
+// Font family
+$font-base: 		    'Heebo', sans-serif;
+$font-hedding:		    'Montserrat', sans-serif;
+
+// Colors
+$body-color:			#626262;
+$primary:				#30b666;
+$white:					#ffffff;
+$gray-1: 				#f6f7f8; 	// BG Light
+$gray-2: 				#cccccc;
+$gray-3: 				#626262; 	// Body Text
+$gray-4: 				#707173;
+$gray-5: 				#3a4957;
+$gray-6: 				#293745;
+$gray-7: 				#1b1b29;
+$gray-8: 				#291843; 	// Heading Color
+$gray-9: 				#291843; 	// BG Color Dark
+$black:  				#000000;
+
+// Border color
+$border-color: 	        #e8e8e8;
+$border-color-2: 	    #f6f7f8;
+$border-color-3: 	    #30b666;
+$border-color-bottom: 	#291843;
+
+
+// For button and input border radius
+$border-radius:         50px;
+$border-radius-sm:      50px 0 50px 0;
+$border-radius-md:      1.5rem 0 1.5rem 0;
+$border-radius-lg:      2.5rem 0 2.5rem 0;
+
+// Box shadow sizes
+$box-shadow:            0px 2px 5px rgba($black, 0.05);
+$box-shadow-sm:         0px 4px 8px rgba($black, 0.07);
+$box-shadow-lg:         0px 4px 13px rgba($black, 0.05);

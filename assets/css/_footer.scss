@@ -1,0 +1,100 @@
+/*****************************
+  Footer
+*****************************/
+
+.footer {
+	color: rgba($white, 0.5);
+	border-radius: 6.5rem 0 0 0;
+	ul {
+		margin-bottom: 0;
+	}
+}
+
+/* Contact Address */
+.footer-contact-address {
+	ul {
+		li {
+			display: flex;
+			margin-bottom: 15px;
+			&:last-child {
+				margin-bottom: 0;
+			}
+		}
+	}
+	i {
+		color: $primary;
+		font-size: 30px;
+		margin-right: 16px;
+	}
+	.address-info {
+		color: $white;
+		h6 {
+			color: $primary;
+			font-size: 13px;
+			margin-bottom: 0;
+		}
+		p {
+			font-size: 13px;
+			margin-bottom: 0;
+		}
+	}
+}
+
+/* Follow Us */
+.follow-us {
+	ul {
+		display: flex;
+		flex-wrap: wrap;
+		li {
+			margin: 0px 15px 10px 0;
+			&:last-child {
+				margin-right: 0;
+			}
+			a {
+				color: $white;
+				font-size: 18px;
+				&:hover {
+					color: $primary;
+				}
+			}
+		}
+	}
+}
+
+/* Footer link  */
+.footer-link {
+	ul {
+		li {
+			a {
+				color: rgba($white, 0.5);
+				font-size: 13px;
+				line-height: 26px;
+				&:hover {
+					color: $primary;
+				}
+			}
+		}
+	}
+}
+
+/* Copyright */
+.footer-bottom {
+	color: $white;
+	padding: 50px 0 30px;
+	a {
+		color: $white;
+		&:hover {
+			color: $primary;
+		}
+	}
+}
+
+/*****************************
+  Responsive
+*****************************/
+
+@media (max-width:991px) {
+	.footer {
+		border-radius: 30px 0px 0px;
+	}
+}
