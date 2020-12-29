@@ -561,7 +561,7 @@
   
     <!--=================================
     footer-->
-    <footer class="space-pt footer" style="background-color: #233e5f">
+    <!-- <footer class="space-pt footer" style="background-color: #233e5f">
       <div class="container">
         <div class="row">
           <div class="col-md-4">
@@ -663,9 +663,11 @@
           </div>
         </div>
       </div>
-    </footer>
+    </footer> -->
     <!--=================================
     footer-->
+
+    <div id="footer"></div>
 
     <!--=================================
     Back To Top -->
@@ -695,6 +697,10 @@
 
     <!-- Template Scripts (Do not remove)-->
     <script src="assets/js/custom.js"></script>
-
+    <script> 
+      $(function(){
+        $("#footer").load("Footer.html"); 
+      });
+      </script> 
   </body>
 </html>
