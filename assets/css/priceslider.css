@@ -91,7 +91,8 @@
     padding: 0;
     border: 0;
     margin: 0 auto;
-    background: url(../images/emergency/slider_bar.png) no-repeat center;
+	background: url(../images/emergency/slider_bar.png) no-repeat center;
+	background-size: 100%;
 	top: 10px;
 	border-radius: 6px;
 }
@@ -160,7 +161,7 @@
 	font-family: 'Rubik', sans-serif;
 	margin-bottom: 6px;
 }
-.slider_feature_box_price span{font-size: 20px; line-height: 24px; font-weight: 500; color: #ff2c9c; font-family: 'Rubik', sans-serif;}
+.slider_feature_box_price span{font-size: 20px; line-height: 24px; font-weight: 500; color: #555; font-family: 'Rubik', sans-serif;}
 .top_heading{float: left; width: 100%; padding: 0 55px}
 .top_heading .text_value{
 	line-height: 36px;
@@ -282,7 +283,7 @@
 .vps_slider_listing li:first-child .vps_slider_feature_box{margin-left: 0}
 .vps_slider_listing li .vps_slider_feature_box {margin-right: 16px; margin-bottom: 30px;}
 .vps_slider_listing li:last-child .vps_slider_feature_box {margin-right: 0;}
-.vps_slider_feature_box{float: left; width: 178px; padding: 40px 20px 32px; border-radius: 6px; background-color: #fff; box-shadow: 0 5px 5px 0 rgba(0,0,0,.10);}
+
 .inner_slider_feature_box{background-color: #fff; width: 35%;}
 .vps_slider_feature_box figure {vertical-align: middle; margin-bottom: 22px;}
 .inner_slider_feature_content_box{float: left; width: 65%;}

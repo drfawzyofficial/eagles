@@ -4335,14 +4335,14 @@ ol.list {
     margin-bottom: 0; }
 
 .footer-contact-address i {
-  color: #fff;
+  color: #e91e63;
   font-size: 30px;
   margin-right: 15px; }
 
 .footer-contact-address .address-info {
   color: #ffffff; }
   .footer-contact-address .address-info h6 {
-    color: #fff;
+    color: #e91e63;
     font-size: 15px;
     margin-bottom: 0; }
   .footer-contact-address .address-info p {
@@ -4350,6 +4350,9 @@ ol.list {
     margin-bottom: 0; }
 
 /* Follow Us */
+.follow-us h6 {
+  color: #e91e63 !important;
+}
 .follow-us ul {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -4367,6 +4370,9 @@ ol.list {
         color: #e91e63; }
 
 /* Footer link  */
+.footer-link h6 {
+  color: #e91e63 !important;
+}
 .footer-link ul li a {
   color: rgba(255, 255, 255, 0.5);
   font-size: 15px;
@@ -4422,3 +4428,156 @@ ol.list {
 }
 
 /* shared_plan_box */
+
+/*================================================
+Tab Area CSS
+=================================================*/
+.tab .tabs_item {
+  display: none;
+}
+
+.tab .tabs_item:first-child {
+  display: block;
+}
+
+.schedule-list-tab .tabs {
+  padding-left: 0;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.schedule-list-tab .tabs li {
+  text-align: center;
+  display: inline-block;
+  list-style: none;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.07);
+          box-shadow: 0 10px 30px rgba(0, 0, 0, 0.07);
+  margin-right: 15px;
+  border-radius: 10px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.schedule-list-tab .tabs li:last-child {
+  margin-right: 0;
+}
+
+.schedule-list-tab .tabs li a {
+  display: block;
+  color: #212121;
+  padding: 20px 30px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.schedule-list-tab .tabs li a span {
+  display: block;
+  margin-top: 0;
+}
+
+.schedule-list-tab .tabs li a span i {  
+  display: block;
+  font-size: 35px;
+  margin-bottom: 8px;
+  color: #e91e63;
+}
+
+.schedule-list-tab .tabs li.current, .schedule-list-tab .tabs li:hover {
+  background-color: #e91e63;
+}
+
+.schedule-list-tab .tabs li.current a, .schedule-list-tab .tabs li:hover a {
+  color: #ffffff;
+}
+
+.schedule-list-tab .tabs li.current a span i, .schedule-list-tab .tabs li:hover a span i {
+  color: #ffffff;
+}
+
+.schedule-list-tab .tab_content .tabs_item .tab-content h3 {
+  font-size: 30px;
+  margin-bottom: 8px;
+}
+
+.schedule-list-tab .tab_content .tabs_item .tab-content p {
+  margin-bottom: 0;
+}
+
+.schedule-list-tab .tab_content .tabs_item .tab-content .tab-inner-content {
+  margin-top: 25px;
+  position: relative;
+  padding-left: 50px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.schedule-list-tab .tab_content .tabs_item .tab-content .tab-inner-content .icon i {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  line-height: 40px;
+  background-color: #e91e63;
+  color: #ffffff;
+  text-align: center;
+  font-size: 20px;
+  border-radius: 30px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.schedule-list-tab .tab_content .tabs_item .tab-content .tab-inner-content h3 {
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+.schedule-list-tab .tab_content .tabs_item .tab-content .tab-inner-content p {
+  margin-bottom: 0;
+}
+
+.schedule-list-tab .tab_content .tabs_item .tab-content .tab-inner-content:hover .icon i {
+  background-color: #10dce8;
+  color: #ffffff;
+}
+
+@media only screen and (max-width: 767px) {
+  .schedule-list-tab .tabs {
+    margin-bottom: 30px;
+  }
+  .schedule-list-tab .tabs li {
+    margin-bottom: 10px;
+    margin-right: 0;
+    width: 100%;
+  }
+  .schedule-list-tab .tabs li:last-child {
+    margin-bottom: 0;
+  }
+  .schedule-list-tab .tab_content .tabs_item .tab-content h3 {
+    font-size: 20px;
+  }
+  .schedule-list-tab .tab_content .tabs_item .tab-content .tab-inner-content h3 {
+    font-size: 17px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .schedule-list-tab .tabs {
+    margin-bottom: 30px;
+  }
+  .schedule-list-tab .tabs li {
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .schedule-list-tab .tabs li a {
+    padding: 10px 20px;
+  }
+}
+
+.theme-background-color {
+  background-color: red !important;
+}
