@@ -4391,7 +4391,8 @@ ol.list {
     .footer-bottom a:hover {
       color: #e91e63; }
 
-      .why {
+      .whyUs {
+        border: 2px solid #F8F9FA;
         transition: 0.5 ease-in-out !important;
       }
 
