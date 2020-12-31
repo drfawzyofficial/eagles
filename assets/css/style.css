@@ -1337,8 +1337,10 @@ ol.list {
     font-size: 30px; }
   .feature-info-style-3 .feature-info-title {
     margin-bottom: 10px; }
+    .feature-info-style-3:hover .feature-info-title {
+      color: #e91e63; }
   .feature-info-style-3:hover .feature-info-icon {
-    background: #e91e63;
+    background: #e91e63 !important;
     color: #ffffff; }
 
 /* Feature Step */
@@ -1928,7 +1930,7 @@ ol.list {
   .counter-item .counter-icon i {
     font-size: 54px;
     line-height: 1;
-    color: #e91e63;
+    color: #233E5F;
     margin-right: 20px; }
 
 .counter-with-plus .counter-item .counter-content .timer:after {
@@ -3427,10 +3429,10 @@ ol.list {
   .stretch-bg.bg-dark:before {
     background: #233E5F; }
 
-.stretch-bg.bg-light {
-  background: #f6f7f8; }
-  .stretch-bg.bg-light:before {
-    background: #f6f7f8; }
+    .stretch-bg.bg-light {
+      background: #E91E63 !important}
+      .stretch-bg.bg-light:before {
+        background: #E91E63 !important }
 
 /* Client Logo */
 .our-clients .owl-item {
