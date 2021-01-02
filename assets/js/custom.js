@@ -456,7 +456,7 @@ POTENZA.goToTop = function () {
 *************************/
 POTENZA.searchbox = function () {
   if (jQuery('.search').exists()) {
-     jQuery('.search-btn').on('click', function () {
+     jQuery('html, body').on('click', '.search-btn', function () {
         jQuery('.search').toggleClass("search-open");
           return false;
          });
@@ -510,6 +510,7 @@ POTENZA.pieChart = function () {
   //Window load functions
   $window.on("load", function () {
     POTENZA.pieChart();
+    POTENZA.searchbox();
   });
   //Document ready functions
   $document.ready(function () {

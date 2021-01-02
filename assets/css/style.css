@@ -4342,14 +4342,14 @@ ol.list {
   margin-right: 15px; }
 
 .footer-contact-address .address-info {
-  color: #ffffff; }
+  color: rgba(255, 255, 255, 0.5); }
   .footer-contact-address .address-info h6 {
     color: #e91e63;
     font-size: 15px;
     margin-bottom: 0; }
   .footer-contact-address .address-info p {
     font-size: 15px;
-    margin-bottom: 0; }
+    margin-bottom: 0; color: rgba(255, 255, 255, 0.5); }
 
 /* Follow Us */
 .follow-us h6 {
@@ -4366,10 +4366,10 @@ ol.list {
     .follow-us ul li:last-child {
       margin-right: 0; }
     .follow-us ul li a {
-      color: #ffffff;
+      color: rgba(255, 255, 255, 0.5);;
       font-size: 18px; }
       .follow-us ul li a:hover {
-        color: #e91e63; }
+        color: #FFF; }
 
 /* Footer link  */
 .footer-link h6 {
@@ -4380,16 +4380,16 @@ ol.list {
   font-size: 15px;
   line-height: 26px; }
   .footer-link ul li a:hover {
-    color: #e91e63; }
+    color: #FFF; }
 
 /* Copyright */
 .footer-bottom {
-  color: #ffffff;
+  color: rgba(255, 255, 255, 0.5);;
   padding: 50px 0 30px; }
   .footer-bottom a {
-    color: #ffffff; }
+  color: rgba(255, 255, 255, 0.5);; }
     .footer-bottom a:hover {
-      color: #e91e63; }
+      color: #ffffff; }
 
       .whyUs {
         border: 2px solid #F8F9FA;
@@ -4418,15 +4418,24 @@ ol.list {
     border-radius: 6px;
     padding: 34px 38px;
     box-shadow: 0 5px 5px 0 rgba(0,0,0,.10);
-    border: 2px solid #fff;
+    border: 2px solid #f8f9fa;
     transition: all 0.5s;
 }
 
-.shared_plan_box:hover {
+.DevOps_Price, .Core_values {
+  border: 2px solid #FFF;
+  transition: all 0.5s;
+}
+
+.shared_plan_box:hover, .DevOps_Price:hover, .Core_values:hover {
   border: 2px solid  #e91e63;
 }
 
-.shared_plan_box:hover ul li i {
+.Core_values:hover h5 {
+  color: #e91e63;
+}
+
+.shared_plan_box:hover ul li i, .DevOps_Price:hover ul li i {
   color: #e91e63;
 }
 

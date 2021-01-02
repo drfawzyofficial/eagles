@@ -27,9 +27,9 @@
       <link rel="icon" type="image/png" sizes="96x96" href="assets/imagesSE/favicon/favicon-96x96.png">
       <link rel="icon" type="image/png" sizes="16x16" href="assets/imagesSE/favicon/favicon-16x16.png">
       <link rel="manifest" href="assets/imagesSE/favicon/manifest.json">
-      <meta name="msapplication-TileColor" content="#f35858">
+      <meta name="msapplication-TileColor" content="#ffffff">
       <meta name="msapplication-TileImage" content="assets/imagesSE/favicon/ms-icon-144x144.png">
-      <meta name="theme-color" content="#f35858">
+      <meta name="theme-color" content="#ffffff">
 
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css?family=Heebo:400,500,700%7CMontserrat:500,700&display=swap" rel="stylesheet">
@@ -41,6 +41,9 @@
 
     <!-- Page CSS Implementing Plugins (Remove the plugin CSS here if site does not use that feature) -->
     <link rel="stylesheet" href="assets/css/owl-carousel/owl.carousel.min.css" />
+    <link rel="stylesheet" href="assets/css/swiper/swiper.min.css" />
+    <link rel="stylesheet" href="assets/css/animate/animate.min.css"/>
+    <link rel="stylesheet" href="assets/css/magnific-popup/magnific-popup.css" />
 
     <!-- Template Style -->
     <link rel="stylesheet" href="assets/css/style.css" />
@@ -60,7 +63,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-8 mb-3 mb-md-0">
-          <h1 class="breadcrumb-title mb-2">About Us</h1>
+          <h1 class="breadcrumb-title mb-2">Who we are</h1>
           <p>We are in the business of helping people succeed online. In that process, every SupportEagles' engineer becomes a surgeon, an investigator, a hero and a priest.
           </p>
           <p class="mb-0">We offers seamless outsourced web hosting support, remote infrastructure management and customer support services to web hosting providers, data centers and blade server companies worldwide.
@@ -69,21 +72,6 @@
         <div class="col-md-4">
           <div class="forImage">
             <img class="img-fluid" src="assets/imagesSE/home/home_banner.png" alt="logo"/>
-          </div>
-        </div>
-      </div>
-      <hr>
-      <div class="row">
-        <div class="col-12">
-          <div class="ourHist" id="ourHist">
-            <h3>Our history</h3>
-            <p>We are completely flexible and will provide you with a bespoke solution to meet your requirements. Crucially, budget is as important to us as it is to you. We are committed to delivering the results you desire within the budget you specify. If we can't – we promise to tell you upfront.</p>
-            <p>In 2006 as maintainers of an eCommerce website, we waited 4 days for our hosting provider to fix a simple issue and bring back our website. The website was completely broken, orders were effected and we had a large revenue loss. So we thought no business owners should face such issues.
-            </p>
-            <p>Thus began our lifelong passion to build a tech company that helps online companies take their mind off technology, and instead focus on their business. We are a group of genuine, down to earth and caring individuals who will set out to provide you with only the best. We are perfectionist by nature, this is clearly manifested in our work and the way we do business.</p>
-            <p class="mb-0">For us client satisfaction is paramount, our pleasure comes from seeing a smile on our clients faces because they are over the moon with the work we do for them. We provide a very compact service, we like to spend time getting to know our clients business allowing a higher understanding of their goals and requirements to help pave the way to great business relationships
-
-            </p>
           </div>
         </div>
       </div>
@@ -97,6 +85,15 @@
   Tab -->
   <section class="space-ptb">
     <div class="container">
+      <div class="row">
+        <div class="col-md-10 mx-auto">
+          <div class="section-title mb-3 text-center">
+            <h2>“Tough times don’t last; tough teams do.”</h2>
+            <p class="mb-0">We offers seamless outsourced web hosting support, remote infrastructure management and customer support services to web hosting providers, data centers and blade server companies worldwide.</p>
+          </div>
+        </div>
+      </div>
+
       <div class="row d-flex align-content-center flex-wrap">
         <div class="col-md-4 align-self-center mb-md-0 mb-4">
           <img class="img-fluid" src="assets/images/about/02.jpg" alt="Image">
@@ -112,17 +109,16 @@
             </div>
             <div class="col-md-7 col-lg-8 col-xl-9">
               <div class="tab-content" id="v-pills-tabContent">
-                <div class="tab-pane fade show active shadow rounded-lg p-3" id="v-pills-who-we-are" role="tabpanel" aria-labelledby="v-pills-who-we-are-tab">
+                <div class="tab-pane fade show active shadow rounded-lg p-3 bg-light" id="v-pills-who-we-are" role="tabpanel" aria-labelledby="v-pills-who-we-are-tab">
                   <h6 class="mb-3">We're Cloud Hosting</h6>
                   <p>We are in the business of helping people succeed online. In that process, every SupportEagles' engineer becomes a surgeon, an investigator, a hero and a priest.
                 </div>
-                <div class="tab-pane fade shadow p-3 rounded-lg" id="v-pills-our-vision" role="tabpanel" aria-labelledby="v-pills-our-vision-tab">
+                <div class="tab-pane fade shadow p-3 rounded-lg bg-light" id="v-pills-our-vision" role="tabpanel" aria-labelledby="v-pills-our-vision-tab">
                   <h6 class="mb-3">Our Vision </h6>
                   <p>Pioneer the innovations in computing solutions and cloud services while spearheading the systematic management of resources.
                 </p>
-                  <h5 class="text-primary">+1 (816) 548 2922</h5>
                 </div>
-                <div class="tab-pane fade shadow p-3 rounded-lg" id="v-pills-our-mission" role="tabpanel" aria-labelledby="v-pills-our-mission-tab">
+                <div class="tab-pane fade shadow p-3 rounded-lg bg-light" id="v-pills-our-mission" role="tabpanel" aria-labelledby="v-pills-our-mission-tab">
                   <h6 class="mb-3">Our Mission</h6>
                   <p>To deliver the best possible service quality in the industry at the best prices through systematic management of all available resources.</p>
                 </div>
@@ -137,8 +133,39 @@
   Tab -->
 
   <!--=================================
-  Feature Info -->
+  Our History -->
   <section class="space-ptb bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8">
+          <div class="ourHistory" id="ourHistory">
+            <h3 class="animated" data-swiper-animation="fadeInDown" data-duration="2.0s" data-delay="0.2s">Our history</h3>
+            <div class="animated" data-swiper-animation="fadeInUp" data-duration="2.0s" data-delay="0.4s">
+              <p>We are completely flexible and will provide you with a bespoke solution to meet your requirements. Crucially, budget is as important to us as it is to you. We are committed to delivering the results you desire within the budget you specify. If we can't – we promise to tell you upfront.</p>
+            <p>In 2006 as maintainers of an eCommerce website, we waited 4 days for our hosting provider to fix a simple issue and bring back our website. The website was completely broken, orders were effected and we had a large revenue loss. So we thought no business owners should face such issues.
+            </p>
+            <p>Thus began our lifelong passion to build a tech company that helps online companies take their mind off technology, and instead focus on their business. We are a group of genuine, down to earth and caring individuals who will set out to provide you with only the best. We are perfectionist by nature, this is clearly manifested in our work and the way we do business.</p>
+            <p class="mb-0">For us client satisfaction is paramount, our pleasure comes from seeing a smile on our clients faces because they are over the moon with the work we do for them. We provide a very compact service, we like to spend time getting to know our clients business allowing a higher understanding of their goals and requirements to help pave the way to great business relationships
+
+            </p>
+            </div>
+          </div>
+          </div>
+        <div class="col-md-4">
+          <div class="image_approach" id="image_approach">
+              <img class="img-fluid" src="assets/images/about/feature_bg.png" title="image_approach" alt="image_approach"/>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+  <!--=================================
+  Our History -->
+
+  <!--=================================
+  Feature Info -->
+  <section class="space-ptb bg-white">
     <div class="container">
       <div class="row">
         <div class="col-sm-12">
@@ -150,8 +177,8 @@
       </div>
       <div class="row">
         <div class="col-md-6">
-          <div class="feature-info feature-info-style-3 shadow rounded-lg p-3 bg-white">
-            <div class="feature-info-icon bg-light border">
+          <div class="feature-info feature-info-style-3 shadow rounded-lg p-3 bg-light">
+            <div class="feature-info-icon bg-white border">
               <i class="fas fa-layer-group"></i>
             </div>
             <div class="feature-info-content">
@@ -162,8 +189,8 @@
           </div>
         </div>
            <div class="col-md-6 mt-4 mt-md-0">
-          <div class="feature-info feature-info-style-3 shadow rounded-lg p-3 bg-white">
-            <div class="feature-info-icon bg-light border">
+          <div class="feature-info feature-info-style-3 shadow rounded-lg p-3 bg-light">
+            <div class="feature-info-icon bg-white border">
               <i class="flaticon-team"></i>
             </div>
             <div class="feature-info-content">
@@ -175,8 +202,8 @@
           </div>
         </div>
         <div class="col-md-6 mt-4">
-            <div class="feature-info feature-info-style-3 shadow rounded-lg p-3 bg-white">
-              <div class="feature-info-icon bg-light border">
+            <div class="feature-info feature-info-style-3 shadow rounded-lg p-3 bg-light">
+              <div class="feature-info-icon bg-white border">
                 <i class="fas fa-project-diagram"></i>
               </div>
               <div class="feature-info-content">
@@ -189,8 +216,8 @@
             </div>
           </div>
           <div class="col-md-6 mt-4">
-            <div class="feature-info feature-info-style-3 shadow rounded-lg p-3 bg-white">
-              <div class="feature-info-icon bg-light border">
+            <div class="feature-info feature-info-style-3 shadow rounded-lg p-3 bg-light">
+              <div class="feature-info-icon bg-white border">
                 <i class="fas fa-server"></i>
               </div>
               <div class="feature-info-content">
@@ -424,7 +451,7 @@
         </div>
       <div class="row">
         <div class="col-md-6">
-          <div class="our-partners p-4 p-md-5 border rounded-lg shadow bg-white text-center">
+          <div class="p-3 rounded-lg shadow bg-white text-center Core_values">
             <img src="assets/imagesSE/about/workculture.png" alt="#">
             <h5 class="my-3 d-block text-center"><strong>Work Culture</strong></h5>
             <p class="m-0">SupportEagles follows a work culture that’s intrinsically conducive to high service quality by bringing out the best in all human resources. We believe that higher service quality at better prices can be achieved by adopting a streamlined system of practices that maximize utility from all available resources while minimizing and eliminating any inefficiency. SupportEagles always strives for continuous improvement, and explore new avenues of innovation and efficiency.
@@ -433,7 +460,7 @@
           </div>
         </div>
         <div class="col-md-6 mt-4 mt-md-0">
-          <div class="our-partners p-4 p-md-5 border rounded-lg shadow bg-white text-center">
+          <div class="p-3 rounded-lg shadow bg-white text-center Core_values">
             <img src="assets/imagesSE/about/partners.png" alt="#">
             <h5 class="my-3 d-block"><strong>People / Partners</strong></h5>
             <p class="m-0">SupportEagles values the trust of our customers more than anything else. As a result, we have wholesome relations with our customers to this day. A significant portion of our revenue comes through references from our happy customers. Unlike some players in the server management industry reported with a proclivity for slighting smaller web hosts, SupportEagles highly regards each and every customer. We are proud to maintain long-term relations with our customers.
@@ -443,7 +470,7 @@
         </div>
 
         <div class="col-md-6 mt-4">
-            <div class="our-partners p-4 p-md-5 border rounded-lg shadow bg-white text-center">
+            <div class="p-3 rounded-lg shadow bg-white text-center Core_values">
               <img src="assets/imagesSE/about/products.png" alt="#">
               <h5 class="my-3 d-block"><strong>Products</strong></h5>
               <p class="m-0">We believe in having the right products in the right place to improve the overall efficiency of the company. SupportEagles has built a lot of custom products over the time and continually work to create more products which will help us to deliver better. We have the capability and experience to cater for all your needs – from small, straight-forward projects to large, complex campaigns.
@@ -454,13 +481,10 @@
             </div>
           </div>
           <div class="col-md-6 mt-4">
-            <div class="our-partners p-4 p-md-5 border rounded-lg shadow bg-white text-center">
+            <div class="p-3 rounded-lg shadow bg-white text-center Core_values">
               <img src="assets/imagesSE/about/process.png" alt="#">
               <h5 class="my-3 d-block"><strong>Process</strong></h5>
               <p class="m-0">We always try to provide utmost customer satisfaction by working continuously to improve our process. SupportEagles has built a very strong reputation for providing the Full-Service and cost friendly solutions for its customer’s particular requirements.By providing a range of products in each of our specialist fields we are able to provide optimum solutions for our clients.
-
-
-  
               </p>
             </div>
           </div>
@@ -625,6 +649,11 @@
   <script src="assets/js/jquery.appear.js"></script>
   <script src="assets/js/counter/jquery.countTo.js"></script>
   <script src="assets/js/owl-carousel/owl.carousel.min.js"></script>
+  <script src="assets/js/swiper/swiper.min.js"></script>
+  <script src="assets/js/swiperanimation/SwiperAnimation.min.js"></script>
+  <script src="assets/js/magnific-popup/jquery.magnific-popup.min.js"></script>
+  <script src="assets/js/shuffle/shuffle.min.js"></script>
+  <script src="assets/js/easy-pie-chart/easy-pie-chart.js"></script>
 
   <!-- Template Scripts (Do not remove)-->
   <script src="assets/js/custom.js"></script>
