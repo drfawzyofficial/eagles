@@ -1231,7 +1231,7 @@ ol.list {
   padding: 40px;
   position: relative;
   -webkit-box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.05);
-          box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.05); }
+          box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.05); min-height: 475px; display: flex; flex-direction: column; justify-content: center; }
   .feature-info-style-2 .feature-info-icon {
     margin-bottom: 20px;
     z-index: 9;
@@ -1310,7 +1310,7 @@ ol.list {
 .feature-info-style-3 {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex; }
+  display: flex; min-height: 200px }
   .feature-info-style-3 .feature-info-icon {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -4394,6 +4394,10 @@ ol.list {
       .whyUs {
         border: 2px solid #F8F9FA;
         transition: 0.5 ease-in-out !important;
+        min-height: 375px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
       }
 
       .whyUs:hover {
